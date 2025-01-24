@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Background Color</title>
+    <link rel="stylesheet" href="Exercise-2.css">
+    <!-- Create an element with ID head and verify that background colour works on it as a inline external as well as using style tag CSS-->
+    <style>
+        /* Internal CSS */
+        #head-internal {
+            background-color: lightblue;
+        }
+    </style>
+    <link rel="stylesheet" href="styles.css"> <!-- External CSS -->
+</head>
+<body>
+    <!-- Inline CSS -->
+    <div id="head-inline" style="background-color: lightcoral;">
+        This is an inline styled element.
+    </div>
+
+    <!-- Internal CSS -->
+    <div id="head-internal">
+        This is an internally styled element.
+    </div>
+
+    <!-- External CSS -->
+    <div id="head-external">
+        This is an externally styled element.
+    </div>
+</body>
+</html>
